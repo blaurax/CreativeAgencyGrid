@@ -1,0 +1,16 @@
+@use "sass:math";
+
+
+
+@function divide($num1: 100,$num2: 5){
+
+    $result: math.div($num1, $num2);
+
+    @return math.round($result) + px;
+}
+
+// TEST!!!!!!
+// div{
+//     width: divide(110,7);
+
+// }
