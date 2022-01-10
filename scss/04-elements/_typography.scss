@@ -1,0 +1,15 @@
+@use '../01-settings/' as *;
+p{
+    font-family:'Roboto', sans-serif;
+    font-size: 1.6 * $font-base;
+    line-height: 2.8rem;
+    padding: $grid-base;
+    margin-top: $grid-base * 1.5;
+}
+
+
+    //  lub 
+    // p{
+    //     font-size: 1.6 * $font-base;
+    // wtedy trzeba uzyc @use '../01-settings/' as
+    // }
