@@ -145,4 +145,29 @@ p {
   }
 }
 
+.btn {
+  color: #eff0f3;
+  border: none;
+  border-radius: 0.4rem;
+  display: inline-block;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  text-align: center;
+  width: 20rem;
+  transition-duration: 0.5s;
+}
+.btn--red {
+  background-color: #74030e;
+}
+.btn--red:hover {
+  background-color: #420208;
+}
+.btn--green {
+  background-color: #132601;
+}
+.btn--green:hover {
+  background-color: black;
+}
+
 /*# sourceMappingURL=style.css.map */

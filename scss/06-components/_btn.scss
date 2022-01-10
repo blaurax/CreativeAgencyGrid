@@ -1,0 +1,28 @@
+@use '../01-settings' as *;
+
+.btn{
+    color: $color-white;
+    border: none;
+    border-radius: 0.4rem;
+    display: inline-block;
+    font-size:2.2rem;
+    font-weight:bold;
+    padding:1.5rem;
+    text-align:center;
+    width: 20rem;
+    transition-duration: 0.5s;
+
+    &--red{
+        background-color:$color-red;
+        &:hover{
+            background-color:darken($color-red, 10%)
+        }
+    }
+
+    &--green{
+        background-color:$color-green;
+        &:hover{
+            background-color:darken($color-green, 10%)
+        }
+    }
+}
