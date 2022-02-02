@@ -259,4 +259,18 @@ p {
   margin: 0 auto;
 }
 
+.site-section {
+  min-height: 70vh;
+  padding-top: 3rem;
+}
+.site-section--bg-color {
+  background-color: #504533;
+}
+
+.site-footer {
+  background-color: #201b13;
+  height: 40vh;
+  color: #eff0f3;
+}
+
 /*# sourceMappingURL=style.css.map */
