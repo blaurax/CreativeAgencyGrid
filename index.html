@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Restauracja Dolce Vita Kraków</title>
 </head>
-<body>
+<body class="site-body">
     <header class='site-header'>
         <div class="site-header__blackout blackout"></div>
         <nav>
             <ul class="site-header__nav nav">
                 <li class="nav__item"><a class="nav__link" href="#start">Start</a></li>
                 <li class="nav__item"><a class="nav__link" href="#menu">Menu</a></li>
-                <li class="nav__item"><a class="nav__link" href="#lokalization">Lokalizacja</a></li>
+                <li class="nav__item"><a class="nav__link" href="#localization">Lokalizacja</a></li>
                 <li class="nav__item"><a class="nav__link" href="#contact">Kontakt</a></li>
             </ul>
         </nav>
@@ -31,6 +31,7 @@
                 </div>
             </div>
         </section>
+
         <section class='site-section site-section--bg-color' id="menu">
             <h2 class='heading--h2 text-color-white'>Menu</h2>
             <div class="container">
@@ -62,7 +63,8 @@
                 </div>
             </div>
         </section>
-        <section class='site-section ' id="Lokalization">
+
+        <section class='site-section ' id="localization">
             <h2 class='heading--h2'>Lokalizacja</h2>
             <div class="container">
                 <div class="row">
@@ -72,8 +74,27 @@
                 </div>
             </div>
         </section>
-        <section class='site-section' id="Contact">
-            <h2 class='heading--h2'>Kontakt</h2>
+
+        <section class='site-contact' id="contact">
+            <div class="blackout site-contact__blackout"></div>
+            <h2 class='heading--h2 site-contact__h2'>Kontakt</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                        <form class='form site-contact__form'>
+                            <label class="form__label" for="mail">Podaj twój email</label>
+                            <input class="form__item"  id="mail">
+                            <label class="form__label" for="subject">Temat wiadomości</label>
+                            <input class="form__item"  id="subject">
+                            <label class="form__label"  for="message">Tresc wiadomości</label>
+                            <textarea class="form__item" id="massage" cols="15" rows="5"></textarea>
+                            <input class="form__item"  class="btn btn--outline" type="submit" value="Wyślij">
+                        </form>
+
+                    </div>
+                </div>
+            </div>
         </section>
 
 
@@ -90,7 +111,12 @@
 
     </footer>
 
-  
+    <div class="site-body__social social">
+        <div class="social__item social__item--twitter"></div>
+        <div class="social__item social__item--youtube"></div>
+        <div class="social__item social__item--in"></div>
+        <div class="social__item social__item--facebook"></div>
+    </div>
 
     <script src="js/scripts.js"></script>
 </body>
